@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+.chart-container {
+  margin-right: 11rem;
+  float: right;
+  /* align-items: right; */
+  /* Align the chart to the left side */
+  width: 40%;
+  /* Set the width to 50% of the screen */
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+  /* Ensure padding and border are included in the width */
+}
+
+.pie-chart-container {
+  float: left;
+  margin-bottom: 2rem;
+  /* margin-left: 1rem; */
+  /* Align the pie chart to the left side */
+  width: 40%;
+  /* Set the width to 50% of the screen */
+  box-sizing: border-box;
+
+  /* Ensure padding and border are included in the width */
+}
+
+
+canvas {
+  max-width: 100%;
+  /* Ensure the chart fits within its container */
+}
+
+h2 {
+  margin-bottom: 10px;
+  /* Add some space below the heading */
+}
+
+table {
+  margin-top: 5rem;
+  /* clear: both; */
+  /* Ensure that the table appears below the other elements */
+  /* margin-top: 20px; */
+  /* Add some space between the table and the other elements */
+}
+
+/* App.css */
+.table-container {
+  margin: 20px auto;
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+
+
+/* App.css */
+.app-container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.city-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 5px;
+}
+
+.city {
+  height: 50px;
+}
+
+.large {
+  height: 100px;
+}
+
+/* MasonryGrid.css */
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  /* Auto-fit columns with min-width of 200px */
+  gap: 10px;
+
+}
+
+.item {
+  background-color: #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.item1 {
+  grid-row: span 2;
+}
+
+.item9 {
+  grid-row: 1;
+}
+
+.item2 {
+  grid-row: span 3;
+}
+
+.item3 {
+  grid-column: span 2;
+}
+
+.item4 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.item7 {
+  /* grid-column: span 1; */
+  grid-row: span 1;
+}
+
+/* Add styles for other items as needed */

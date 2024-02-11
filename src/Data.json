@@ -1,0 +1,106 @@
+{
+    "data": {
+        "1": {
+            "fundPerformance": {
+                "labels": [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun"
+                ],
+                "values": [
+                    1000,
+                    1100,
+                    1200,
+                    1250,
+                    1300,
+                    1350
+                ]
+            },
+            "assetAllocation": {
+                "labels": [
+                    "Stocks",
+                    "Bonds",
+                    "Cash",
+                    "Real Estate"
+                ],
+                "values": [
+                    25,
+                    30,
+                    20,
+                    25
+                ]
+            }
+        },
+        "2": {
+            "fundPerformance": {
+                "labels": [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun"
+                ],
+                "values": [
+                    900,
+                    1000,
+                    1100,
+                    1150,
+                    1200,
+                    1250
+                ]
+            },
+            "assetAllocation": {
+                "labels": [
+                    "Stocks",
+                    "Bonds",
+                    "Cash",
+                    "Real Estate"
+                ],
+                "values": [
+                    20,
+                    35,
+                    15,
+                    30
+                ]
+            }
+        },
+        "3": {
+            "fundPerformance": {
+                "labels": [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun"
+                ],
+                "values": [
+                    1200,
+                    1300,
+                    1400,
+                    1450,
+                    1500,
+                    1550
+                ]
+            },
+            "assetAllocation": {
+                "labels": [
+                    "Stocks",
+                    "Bonds",
+                    "Cash",
+                    "Real Estate"
+                ],
+                "values": [
+                    30,
+                    25,
+                    25,
+                    20
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+
+[
+    {
+        "state": "California",
+        "temperature": 75
+    },
+    {
+        "state": "New York",
+        "temperature": 65
+    },
+    {
+        "state": "Texas",
+        "temperature": 80
+    },
+    {
+        "state": "Florida",
+        "temperature": 85
+    },
+    {
+        "state": "Washington",
+        "temperature": 70
+    }
+]
